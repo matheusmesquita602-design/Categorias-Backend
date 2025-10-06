@@ -4,7 +4,7 @@ const { Categorias } = require('../models');
 //Create
 const salvarCategorias = async (nome, premio,data) => {
     const categorias = await Categorias.create({
-        nome: nome, premio:premio, data:data 
+        nome: nome, premio:premio, data:data
     });
     return categorias
 }

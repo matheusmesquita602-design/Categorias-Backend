@@ -24,7 +24,7 @@ async function consultarDetalhesProduto() {
     document.getElementById('p-nome').textContent = p.nome ?? '';
     document.getElementById('p-premio').textContent = p.premio ?? '';
     document.getElementById('p-data').textContent = p.data ?? '';
-    document.getElementById('btnEditar').href = `incluirAlterar.html?id=${p.id}`;
+    document.getElementById('btnEditar').href = `incluirAlterarCategorias.html?id=${p.id}`;
   } catch (e) {
     console.error(e);
     showToast('Erro ao consultar os detalhes do produto selecionado.', 'danger');
