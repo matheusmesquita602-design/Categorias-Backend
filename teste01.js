@@ -1,4 +1,4 @@
-const repo = require('./CategoriasRepositorio.js')
+const repo = require('./backend/CategoriasRepositorio')
 
 repo.obterCategorias().then((categorias) => {
     console.log("==========================");
