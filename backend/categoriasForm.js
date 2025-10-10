@@ -48,7 +48,7 @@ async function carregarParaEdicao(id) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const form = document.getElementById('CategoriasForm');
+  const form = document.getElementById('categoriasForm');
   const u = new URLSearchParams(location.search);
   const id = u.get('id');
 
